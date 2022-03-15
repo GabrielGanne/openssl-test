@@ -1,0 +1,15 @@
+BEGIN
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut elit non
+justo elementum eleifend eget sit amet quam. Quisque viverra gravida lectus,
+vitae rhoncus orci vestibulum at. Quisque vitae felis metus. Etiam eu ipsum
+viverra, bibendum justo sed, convallis ipsum. Nullam tincidunt elit et massa
+elementum, ac facilisis quam elementum. Nulla consequat fringilla enim, non
+lacinia ex ullamcorper vitae. Cras lobortis at dui ut feugiat. Suspendisse
+risus est, consequat sit amet enim in, convallis vestibulum magna. Nunc vel
+dolor vitae odio commodo fermentum. Donec ac augue scelerisque, varius lectus
+quis, fringilla justo. Phasellus sit amet rhoncus lacus. Sed purus ante,
+vehicula interdum augue vel, tincidunt blandit quam. Cras sed dolor
+condimentum, commodo tortor quis, maximus elit.
+
+END
