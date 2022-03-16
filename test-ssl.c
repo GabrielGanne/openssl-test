@@ -125,8 +125,8 @@ main(int argc, char **argv)
     char *input;
     size_t inputlen;
     int rv = 1;
-    unsigned char key[32] = {0};
-    unsigned char iv[16] = {0};
+    unsigned char key[32] = {0};  /* 256bits key */
+    unsigned char iv[16] = {0};  /* 128bits IV */
 
     /*
      * Buffer for ciphertext. Ensure the buffer is long enough for the
