@@ -8,14 +8,14 @@ ref-dumpkey:
 	openssl enc -nosalt -aes-256-cbc -k $(PASSWD) -P
 
 lorem.txt.enc.ref: lorem.txt
-	openssl aes-256-cbc -e -k $(PASSWD) -nosalt -pbkdf2 -in $^ -out $@
+	openssl aes-256-cbc -e -k $(PASSWD) -nosalt -in $^ -out $@
 
 .PHONY: ref-encrypt
 ref-encrypt: lorem.txt.enc.ref
 
 .PHONY: ref-decrypt
 ref-decrypt: lorem.txt.enc.ref
-	openssl aes-256-cbc -d -k $(PASSWD) -nosalt -pbkdf2 -in $^
+	openssl aes-256-cbc -d -k $(PASSWD) -nosalt -in $^
 
 lorem.txt.enc.test: test-ssl lorem.txt lorem.txt.enc.ref
 	./test-ssl lorem.txt lorem.txt.enc.test
