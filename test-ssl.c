@@ -178,7 +178,7 @@ main(int argc, char **argv)
         goto exit;
     }
 
-    if (!EVP_BytesToKey(EVP_aes_256_cbc(), EVP_get_digestbyname("md5"),
+    if (!EVP_BytesToKey(EVP_aes_256_cbc(), EVP_get_digestbyname("sha256"),
             NULL  /* salt */,
             PASSWD, strlen(PASSWD), 1  /* count */,
             key, iv)) {
